@@ -1,0 +1,19 @@
+testcase_id,url,username_field,password_field,login_button,error_selector,username,password,expected_type,expected_result
+
+TC-001-001,https://school.moodledemo.net/login/index.php?loginredirect=1,username,password,loginbtn,loginerrormessage,,moodle26,fail,Your login info may be incorrect
+
+TC-001-002,https://school.moodledemo.net/login/index.php?loginredirect=1,username,password,loginbtn,loginerrormessage,a,moodle26,fail,Your login info may be incorrect
+
+TC-001-003,https://school.moodledemo.net/login/index.php?loginredirect=1,username,password,loginbtn,loginerrormessage,teacher,,fail,Your login info may be incorrect
+
+TC-001-004,https://school.moodledemo.net/login/index.php?loginredirect=1,username,password,loginbtn,loginerrormessage,teacher,m,fail,Your login info may be incorrect
+
+TC-001-005,https://school.moodledemo.net/login/index.php?loginredirect=1,username,password,loginbtn,loginerrormessage,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,m,fail,Your login info may be incorrect
+
+TC-001-006,https://school.moodledemo.net/login/index.php?loginredirect=1,username,password,loginbtn,loginerrormessage,teacher,moodle26,success,/my/
+
+TC-001-007,https://school.moodledemo.net/login/index.php?loginredirect=1,username,password,loginbtn,loginerrormessage,teacher,wrongpass,fail,Your login info may be incorrect
+
+TC-001-008,https://school.moodledemo.net/login/index.php?loginredirect=1,username,password,loginbtn,loginerrormessage,fakeuser999,moodle26,fail,Your login info may be incorrect
+
+TC-001-009,https://school.moodledemo.net/login/index.php?loginredirect=1,username,password,loginbtn,loginerrormessage,,,fail,Your login info may be incorrect

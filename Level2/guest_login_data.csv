@@ -1,0 +1,2 @@
+testcase_id,url,guest_button_id,expected_text
+TC-012-001,https://school.moodledemo.net/login/,loginguestbtn,You are currently using guest access

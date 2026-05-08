@@ -1,0 +1,2 @@
+testcase_id,url,username_field,password_field,login_button,username,password,user_menu_id,logout_link_text,expected_result
+TC-011-001,https://school.moodledemo.net/login/index.php,username,password,loginbtn,teacher,moodle26,user-menu-toggle,Log out,Mount Orange

@@ -1,0 +1,2 @@
+testcase_id,url,expected_result
+TC-012-001,https://school.moodledemo.net/login/,You are currently using guest access

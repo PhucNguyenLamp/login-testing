@@ -1,0 +1,11 @@
+testcase_id,username,password,expected_type,expected_result
+TC-001-001,,moodle26,fail,Your login info may be incorrect
+TC-001-002,a,moodle26,fail,Your login info may be incorrect
+TC-001-003,teacher,,fail,Your login info may be incorrect
+TC-001-004,teacher,m,fail,Your login info may be incorrect
+TC-001-005,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,m,fail,Your login info may be incorrect
+TC-001-006,teacher,moodle26,success,/my/
+TC-001-007,teacher,wrongpass,fail,Your login info may be incorrect
+TC-001-008,fakeuser999,moodle26,fail,Your login info may be incorrect
+TC-001-009,,,fail,Your login info may be incorrect
+TC-001-010,teacher,moodle26,success,/my/
