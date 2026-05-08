@@ -51,11 +51,11 @@ Tests the login form on `school.moodledemo.net` with a range of valid and invali
 | TC-001-008 | fakeuser999 | moodle26 | Fail — error message shown |
 | TC-001-009 | *(empty)* | *(empty)* | Fail — error message shown |
 
-### Functional — Logout (`TC-011-001`)
+### Functional — Logout (`TC-001-011`)
 
 Logs in as `teacher`, navigates to the user menu, clicks **Log out**, and asserts the page title returns to `"Mount Orange"`.
 
-### Functional — Guest Login (`TC-012-001`)
+### Functional — Guest Login (`TC-001-012`)
 
 Clears browser cookies (to ensure the guest button is visible), clicks **Log in as a guest**, and asserts the page contains `"You are currently using guest access"`.
 
